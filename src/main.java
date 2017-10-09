@@ -23,16 +23,6 @@ public class main {
 		URLConnection urlConn = url.openConnection();
 		InputStreamReader stream = new InputStreamReader (urlConn.getInputStream(), "UTF-8");
 		BufferedReader buff = new BufferedReader(stream);
-		/*String line = "nothing";
-		while (line.contains("twitter") == false)
-		{
-			line = buff.readLine();
-			
-		}
-		beginIndex = findBegin(line);
-		int endIndex = findEnd(line);
-		System.out.println(line.substring(beginIndex, endIndex - 5));
-		*/
 		i = 0;
 		while (i <= 7)
 		{
